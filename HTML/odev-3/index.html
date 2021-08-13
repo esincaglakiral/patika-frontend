@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    li {
+      list-style: none;
+    }
+    .searching {
+      background-color: #EEEEEE;
+      width: 90%;
+      text-align: center;
+    }
+    .searching > input {
+      width: 25rem;
+    }
+    .searching-footer {
+      width: 90%;
+      display: flex;
+    }
+    .special-searches {
+      text-align: center;
+      width: 40%;
+      background-color: #7DE5DA;
+      padding-top: 1rem;
+    }
+    .important-links {
+      text-align: center;
+      width: 20%;
+      background-color: #70CCC2;
+      padding-top: 1rem;
+      padding-bottom: 0.4rem;
+    }
+    .mail-subscription {
+      text-align: center;
+      width: 40%;
+      background-color: #62B3AA;
+    }
+    .mail-subscription > input {
+      width: 40%;
+    }
+    .mail-subscription > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: black;
+      opacity: 1; /* Firefox */
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: black;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: black;
+    }
+    footer {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="google logo">
+    </div>
+    <div class="searching">
+      <div>Search the web using Google!</div>
+      <input type="text">
+      <div class="button-container">
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
+      </div>
+    </div>
+    <div class="searching-footer">
+      <div class="special-searches">
+        <li>Special Searches</li>
+        <li><a href="http://www.google.com/stanford">Stanford Search</a></li>
+        <li><a href="http://www.google.com/linux">Linux Search</a></li>
+      </div>
+      <div class="important-links">
+        <li><a href="help.html">Help!</a></li>
+        <li><a href="about.html">About Google!</a></li>
+        <li><a href="company.html">Company Info</a></li>
+        <li><a href="stickers.html">Google Logos!</a></li>
+      </div>
+      <div class="mail-subscription">
+        <div>Get Google!</div>
+        <div>updates monthly:</div>
+        <input type="text" placeholder="your e-mail">
+        <div>
+          <button>Subscribe</button>
+          <a href="http://www.findmail.com/list/google-friends">Archive</a>
+        </div>
+      </div>
+    </div>
+    <footer>Copyright ©1998 Google Inc.</footer>
+  </div>
+</body>
+</html>
