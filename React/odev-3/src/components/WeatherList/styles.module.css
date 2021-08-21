@@ -1,0 +1,4 @@
+.weatherList {
+  display: flex;
+  flex-direction: row;
+}
