@@ -12,6 +12,7 @@ button types = primary, success, warning, danger
 
 ```jsx
 import React, { Component } from 'react'
+import 'cely-basic-buttons/dist/index.css'
 
 import Button from 'cely-basic-buttons'
 

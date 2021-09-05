@@ -1,0 +1,61 @@
+._1Pz2d {
+  padding: 10px 40px;
+  border: 2.5px solid transparent;
+  border-radius: 10px;
+  transition: all 0.2s;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+._1Pz2d:hover {
+  cursor: pointer;
+}
+
+/* primary */
+._1Pz2d._3ljpl {
+  color: #F38BA0;
+  background-color: rgba(181, 234, 234, 0.8);
+}
+._1Pz2d._3ljpl:hover {
+  background-color: rgba(181, 234, 234, 1);
+}
+._1Pz2d._3ljpl:active {
+  border: 2.5px solid #F38BA0;
+}
+
+/* success */
+._1Pz2d._2iiDh {
+  color: #5E454B;
+  background-color: rgba(206, 229, 208, 0.8);
+}
+._1Pz2d._2iiDh:hover {
+  background-color: rgba(206, 229, 208, 1);
+}
+._1Pz2d._2iiDh:active {
+  border: 2.5px solid #5E454B;
+}
+
+/* warning */
+._1Pz2d._3vq3T {
+  color: #709FB0;
+  background-color: rgba(244, 235, 193, 0.8);
+}
+._1Pz2d._3vq3T:hover {
+  background-color: rgba(244, 235, 193, 1);
+}
+._1Pz2d._3vq3T:active {
+  border: 2.5px solid #709FB0;
+}
+
+/* danger */
+._1Pz2d._2zOUo {
+  color: #F3D179;
+  background-color: rgba(239, 75, 75, 0.8);
+}
+._1Pz2d._2zOUo:hover {
+  background-color: rgba(239, 75, 75, 1);
+}
+._1Pz2d._2zOUo:active {
+  border: 2.5px solid #F3D179;
+}
